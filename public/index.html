@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Tajawal&display=swap"
+      rel="stylesheet"
+    />
+    <title>Brazil COVID-19 Tracking App</title>
+  </head>
+  <body>
+    <p id="title">
+      Brazil COVID-19 Tracking App
+    </p>
+    <form>
+      <div class="search_categories">
+        <div class="select">
+          <select name="estados" id="estados">
+            <option value="" disabled selected>Selecione o seu estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AM">Amazonas</option>
+            <option value="AP">Amapá</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Parnaíba</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="PR">Paraná</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SE">Sergipe</option>
+            <option value="SP">São Paulo</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+      </div>
+    </form>
+    <div class="info">
+      <p id="estado"></p>
+      <p id="casos"></p>
+      <p id="mortes"></p>
+      <p id="suspeitas"></p>
+      <p id="ultimaatt"></p>
+    </div>
+    <script src="index.js"></script>
+    <p id="foot">
+      <a href="https://github.com/RubenAceved2/">
+        <img src="githubimg.png" id="githubimg" alt="" /> <br />
+        Created by Ruben Acevedo
+      </a>
+    </p>
+  </body>
+</html>
